@@ -46,7 +46,7 @@ sonar {
         property("sonar.host.url", "https://sonarcloud.io")
     }
 }
-
+git add .github/workflows/sonarcloud-analysis.yml
 dependencies {
 
     implementation("androidx.core:core-ktx:1.13.1")
